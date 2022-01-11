@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "창영이와 점프", "창영이와 점프\창영이와 점프.vcxproj", "{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Debug|x64.ActiveCfg = Debug|x64
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Debug|x64.Build.0 = Debug|x64
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Debug|x86.Build.0 = Debug|Win32
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Release|x64.ActiveCfg = Release|x64
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Release|x64.Build.0 = Release|x64
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Release|x86.ActiveCfg = Release|Win32
+		{A795E4DA-D7D1-4272-8007-AB3390EBAC2B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C1C79F5-A3E8-45E1-AA19-71BAE32E500C}
+	EndGlobalSection
+EndGlobal

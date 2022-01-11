@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "하얀 칸", "하얀 칸\하얀 칸.vcxproj", "{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Debug|x64.ActiveCfg = Debug|x64
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Debug|x64.Build.0 = Debug|x64
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Debug|x86.Build.0 = Debug|Win32
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Release|x64.ActiveCfg = Release|x64
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Release|x64.Build.0 = Release|x64
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Release|x86.ActiveCfg = Release|Win32
+		{C3D37B43-2D1D-4278-A3F2-5FECFF86DCC9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A42A73-601C-471E-9234-ED9A9CD8F08D}
+	EndGlobalSection
+EndGlobal

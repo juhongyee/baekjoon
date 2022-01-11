@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "평범한 배낭", "평범한 배낭\평범한 배낭.vcxproj", "{B6D40A29-2381-4801-A4EE-3636C5765AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Debug|x64.ActiveCfg = Debug|x64
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Debug|x64.Build.0 = Debug|x64
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Debug|x86.Build.0 = Debug|Win32
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Release|x64.ActiveCfg = Release|x64
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Release|x64.Build.0 = Release|x64
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Release|x86.ActiveCfg = Release|Win32
+		{B6D40A29-2381-4801-A4EE-3636C5765AE7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D02D7CA0-0130-4A18-9F3D-E275CB61AF19}
+	EndGlobalSection
+EndGlobal

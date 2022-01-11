@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "제로", "제로\제로.vcxproj", "{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Debug|x64.ActiveCfg = Debug|x64
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Debug|x64.Build.0 = Debug|x64
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Debug|x86.Build.0 = Debug|Win32
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Release|x64.ActiveCfg = Release|x64
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Release|x64.Build.0 = Release|x64
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Release|x86.ActiveCfg = Release|Win32
+		{4B4365B4-2958-41D6-9087-60A7A6DF0AA4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {276FE066-206E-4353-B9DC-BF930D341606}
+	EndGlobalSection
+EndGlobal

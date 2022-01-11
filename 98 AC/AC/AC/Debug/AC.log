@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\이주홍\OneDrive - 아주대학교\대학교\새 폴더\98 AC\AC\AC\소스.cpp(14,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'node' 왼쪽은 무시됩니다.
+  AC.vcxproj -> C:\Users\이주홍\OneDrive - 아주대학교\대학교\새 폴더\98 AC\AC\Debug\AC.exe
