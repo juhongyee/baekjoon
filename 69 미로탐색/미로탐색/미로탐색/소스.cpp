@@ -20,10 +20,12 @@ typedef struct
 
 offsets move[8];
 element stack[MAX_STACK_SIZE];
-int top = -1;
+int front = -1;
+int rear = -1;
 int** maze,**mark;
 int EXIT_ROW, EXIT_COL;
 bool found = false;
+int check[101][101] = { 0 };
 
 void arrange_move() {
 	move[0].vert = 0;
@@ -41,31 +43,31 @@ void scan_maze();
 void path();
 int IsEmpty()
 {
-	return top < 0;
+	return front==rear;
 }
 int IsFull()
 {
-	return (top >= (MAX_STACK_SIZE - 1));
+	return (rear >= (MAX_STACK_SIZE - 1));
 }
 
 void push(element item)
 {
 	if (IsFull())
 	{
-		printf("stack full\n");
+		printf("queue full\n");
 	}
 	
-	stack[++top] = item;
+	stack[++rear] = item;
 }
 
 element pop()
 {
 	if (IsEmpty())
 	{
-		printf("stack X\n");
+		printf("queue X\n");
 	}
 
-	return stack[top--];
+	return stack[++front];
 }
 
 int main()
@@ -74,8 +76,10 @@ int main()
 	scan_maze();
 
 	path();
-	if (found)
-		printf("%d", top + 3);
+	if (found) {
+		printf("%d",check[EXIT_ROW][EXIT_COL]);
+	}//이걸로 출력 예정
+		
 	free(maze);
 	free(mark);
 }
@@ -113,12 +117,14 @@ void path()
 {
 	int row, col, nextRow, nextCol, dir;
 	element position;
+	int count = 1;
 
 	mark[1][1] = 1;
-	top = 0;
-	stack[0].row = 1; stack[0].col = 1; stack[0].dir = 1;
+	check[1][1] = 1;
+	rear = 0;
+	stack[0].row = 1; stack[0].col = 1; stack[0].dir = 0;
 
-	while (top > -1 && !found) {
+	while (!IsEmpty()&&!found) {
 		position = pop();
 		row = position.row;
 		col = position.col;
@@ -128,16 +134,19 @@ void path()
 			nextRow = row + move[dir].vert;
 			nextCol = col + move[dir].horiz;
 
-			if (nextRow == EXIT_ROW && nextCol == EXIT_COL)
+			if (nextRow == EXIT_ROW && nextCol == EXIT_COL) {
+				check[nextRow][nextCol] = check[row][col] + 1;
 				found = true;
+			}
 			else if (maze[nextRow][nextCol] && !mark[nextRow][nextCol])
 			{
+				check[nextRow][nextCol] = check[row][col] + 1;
 				mark[nextRow][nextCol] = 1;
-				position.row = row;
-				position.col = col;
-				position.dir = ++dir;
+				position.row = nextRow;
+				position.col = nextCol;
+				position.dir = 0;
 				push(position);
-				row = nextRow; col = nextCol; dir = 0;
+				++dir;
 			}
 			else ++dir;
 		}
