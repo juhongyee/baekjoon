@@ -37,6 +37,7 @@ def Chain(n):
         
         sumation[i] = sumation[i-1] + sigma_value[i]
 
+    print(sigma_value[n])
     print(sumation[n])
     '''sumation = 0
     for k in range(1,n+1):
@@ -78,8 +79,5 @@ def prime_factor(n,erato):
 n = int(input())
 erato = sieve(n)
 sumation = 0
-for i in range(1,n+1):
-    sumation += prime_factor(i,erato)
-print(sumation)
 
-'''Chain(n)'''
+Chain(n)
