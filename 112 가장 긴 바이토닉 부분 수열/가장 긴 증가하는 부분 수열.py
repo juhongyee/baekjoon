@@ -26,7 +26,6 @@ max = front[0]+back[n-1]
 for i in range(1,n-1):
     if(max<front[i]+back[n-1-i]):
         max = front[i]+back[n-1-i]
-print(front)
-print(back)
+        
 print(max-1)
 
