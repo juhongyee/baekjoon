@@ -2,7 +2,7 @@ import sys
 
 #인형의 개수
 N = int(input())
-max_num = 10*5+1
+max_num = 10**5+1
 doll = list(map(int,sys.stdin.readline().split()))
 num_list = [0 for i in range(max_num+1)]
 
