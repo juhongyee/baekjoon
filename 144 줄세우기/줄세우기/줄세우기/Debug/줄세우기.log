@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\이주홍\OneDrive - 아주대학교\대학교\프로그래밍\baekjoon\144 줄세우기\줄세우기\줄세우기\소스.cpp(31,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\이주홍\OneDrive - 아주대학교\대학교\프로그래밍\baekjoon\144 줄세우기\줄세우기\줄세우기\소스.cpp(66,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  줄세우기.vcxproj -> C:\Users\이주홍\OneDrive - 아주대학교\대학교\프로그래밍\baekjoon\144 줄세우기\줄세우기\Debug\줄세우기.exe
