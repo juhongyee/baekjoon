@@ -1,0 +1,15 @@
+X = input()
+Y = input()
+
+lenX = len(X)
+lenY = len(Y)
+dp = [[0 for i in range(lenY+1)] for j in range(lenX+1)]
+
+for i in range(1,lenY):
+    for j in range(1,lenX):
+        if(X[i] == Y[j]):
+            dp[i][j] = dp[i-1][j-1]+1
+        else:
+            dp[i][j] = max(dp[i-1][j],dp[i][j-1])
+
+print(dp[lenX][lenY])
