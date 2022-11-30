@@ -6,17 +6,19 @@ long long modInv(long long a, int M);
 
 int main()
 {
-	int n, k;
-	long a, b, c;
+	// int n, k;
+	// long a, b, c;
 
-	scanf("%d %d", &n, &k);
+	// scanf("%d %d", &n, &k);
 
-	a = factorial(n);
-	b = (factorial(n-k) * factorial(k))%10007;
-	c = ((a * modInv(b, 10005)) % 10007);
+	// a = factorial(n);
+	// b = (factorial(n-k) * factorial(k))%10007;
+	// c = ((a * modInv(b, 10005)) % 10007);
 
-	printf("%ld", c);
+	// printf("%ld", c);
 
+	printf("%lld",modInv(9,1000000005));
+	printf("%d",1);
 	return 0;
 }
 
